@@ -75,7 +75,17 @@ $(function(){
 	});
 
 	initial();
-
+ //// 畫面捲動 ////
+ $(document).on('click','.scroll[href^="#"]',function(e){
+  var id = $(this).attr("href");
+  var offset = 20;
+  var target = $(id).offset().top - offset;
+  $('html, body').animate({
+   scrollTop:target
+  }, 500);
+  
+  e.preventDefault();
+ });
    
 
 })

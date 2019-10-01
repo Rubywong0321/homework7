@@ -48,19 +48,11 @@ body{
 }
 header{
     width: 100%;
-    background-color:#ff5e39; 
-}
-header>div:first-of-type>nav{
-    position: fixed;
-    top: 0;
-    z-index: 99999;
-    width: 100%
 }
 header>div:first-of-type>nav>ul{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     text-align: center; 
-    width: 100%;
 }
 header>div:first-of-type>nav>ul>li{
     display: inline-block;
@@ -103,7 +95,6 @@ header>div:first-of-type>nav>div>ul li{
 .big_bn{
     width: 1200px;
     margin: 0 auto;
-    margin-top: 42px;
     overflow: hidden;
     position: relative;
 }
@@ -605,14 +596,12 @@ footer{
     }
     .big_bn{
         width: 100%;
-        margin-top: 2px
     }
     .big_bn>div:nth-of-type(1){
         padding: 260px 0;
     }
     .big_bn>div:nth-of-type(1)>div:nth-of-type(1){
         left: 40vw;
-        top: 7vw;
     }
     .big_bn>div:nth-of-type(1)>div:nth-of-type(2){
         left: 60%;
@@ -700,7 +689,6 @@ footer{
     }
     .big_bn{
         width: 100%;
-        margin-top: 28px;
     }
     .big_bn>div:nth-of-type(1){
         padding: 280px 0;
@@ -891,7 +879,6 @@ footer{
     }
     .big_bn{
         width: 100%;
-        margin-top: 0;
     }
     .big_bn>div:nth-of-type(1){
          padding: 200px 0;
